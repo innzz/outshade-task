@@ -1,0 +1,47 @@
+.northBanglore-container{
+    background: #3AA395;
+}
+
+.northBanglore-heading {
+    padding: 20px 0;
+}
+
+.northBanglore-heading > h1 {
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 83px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.northBanglore-inner-content{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.northBanglore-left-section-image-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+}
+
+.northBanglore-left-section-image-container > img{
+    height: 100%;
+}
+
+.northBanglore-right-section-texts{
+    padding: 30px 0;
+    padding-right: 100px;
+    color: #fff;
+}
+
+.northBanglore-right-section-texts > ul > li{
+    padding: 10px 0;
+    font-size: 20px;
+}

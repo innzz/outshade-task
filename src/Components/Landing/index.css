@@ -1,0 +1,45 @@
+.landing-container{
+    height: 100vh;
+    position: relative;
+}
+
+.landing-inner-container{
+    margin-bottom: 300px;
+}
+
+.landing-content-headings{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 100px;
+    color: #1C7065;
+}
+
+.landing-content-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 73px;
+}
+
+.landing-content-headings > h5{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.landing-bg-image-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.landing-bg-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

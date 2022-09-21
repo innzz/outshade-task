@@ -1,0 +1,85 @@
+.legalTeam-container{
+    padding-top: 80px;
+    padding-bottom: 60px
+}
+
+
+.legalTeam-headings{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.legalTeam-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 83px;
+    color: #0D3C35;
+    margin: 0;
+}
+
+.legalTeam-headings > p{
+    margin: 0;   
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #0D3C35;
+}
+
+.legalTeam-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.legalTeam-cards > div:nth-child(1){
+    margin-bottom: 40px;
+}
+
+.legalTeam-cards > div:nth-child(2){
+    margin-top: 40px;
+}
+
+.legalTeam-cards > div:nth-child(3){
+    margin-bottom: 40px;
+}
+
+.legalTeam-cards > div:nth-child(4){
+    margin-top: 40px;
+}
+
+.legalTeam-card{
+    width: 200px;
+    text-align: center;
+    background: #3AA395;
+    box-shadow: 0px 4px 10px rgba(52, 111, 98, 0.25);
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    padding: 10px 5px;
+}
+
+.legalTeam-card > div{
+    width: 100%;
+    position: absolute;
+    top: -25px;
+}
+
+
+.legalTeam-card > div > span{
+    background: linear-gradient(178.36deg, #399A8D 17.74%, #FFFFFF 147.34%);
+    border-radius: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
