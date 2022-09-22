@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.css';
-import Employee1 from '../../assets/images/employee1.png';
-import Employee2 from '../../assets/images/employee2.png';
-import Employee3 from '../../assets/images/employee3.png';
+import Employee1 from '../../../assets/images/employee1.png';
+import Employee2 from '../../../assets/images/employee2.png';
+import Employee3 from '../../../assets/images/employee3.png';
 
 const Employess = () => {
   return (

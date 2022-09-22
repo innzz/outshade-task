@@ -1,0 +1,61 @@
+.currentProposal-container{
+    padding-bottom: 100px;
+}
+
+.currentProposal-headings{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.currentProposal-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 83px;
+    text-transform: uppercase;
+    color: #0D3C35;
+}
+
+.currentProposal-content{
+    display: flex;
+}
+
+.currentProposal-left-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.currentProposal-right-section{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.currentProposal-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    color: #656B6B;
+    margin-left: 100px
+}
+
+.currentProposal-texts > div{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.currentProposal-texts > div > svg{
+    color: #3AA395;
+    width: 50px;
+}
+
+.currentProposal-texts > div > div{
+    width: 100%;
+}

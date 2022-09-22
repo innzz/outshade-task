@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import NorthBangloreImg from '../../assets/images/northbanglore.png';
+import NorthBangloreImg from '../../../assets/images/northbanglore.png';
 
 const NorthBanglore = () => {
   return (

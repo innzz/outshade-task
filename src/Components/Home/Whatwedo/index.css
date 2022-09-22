@@ -1,0 +1,53 @@
+.whatWeDo-container{
+    text-align: center;
+}
+
+.whatWeDo-headings{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.whatWeDo-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #0D3C35;
+}
+
+.whatWeDo-cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.whatWeDo-single-card{
+    /* padding: 5px 5px;
+    margin: 50px 0; */
+    display: flex;
+    align-items: center;
+}
+
+.whatWeDo-multiple-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 5px 5px;
+    margin: 50px 0; */
+}
+
+.whatWeDo-card{
+    background: #3AA395;
+    border-radius: 15px;
+    padding: 40px 20px;
+    margin: 20px 0px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.whatWeDo-footer{
+    padding-bottom: 50px;
+}
+
+.whatWeDo-footer > span{
+    color: #0D3C35;
+}

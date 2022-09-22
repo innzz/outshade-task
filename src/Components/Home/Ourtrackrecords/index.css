@@ -1,0 +1,121 @@
+.ourTrackRecord-container{
+    /* height: 100vh; */
+    background: #3AA395;
+}
+
+.ourTrackRecord-headings{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ourTrackRecord-headings > h1{
+    margin: 0;
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.ourTrackRecord-content{
+    display: flex;
+    margin-top: 30px;
+}
+
+.ourTrackRecord-left-section-text{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.ourTrackRecord-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    color: #fff;
+    margin-left: 100px
+}
+
+.ourTrackRecord-texts > div{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.ourTrackRecord-texts > div > svg{
+    width: 50px;
+}
+
+.ourTrackRecord-texts > div > div{
+    width: 100%;
+}
+
+.ourTrackRecord-right-section-cards{
+    width: 50%;
+}
+
+.ourTrackRecord-cards-container{
+    position: relative;
+    width: 80%;
+    padding: 50px 0;
+}
+
+.ourTrackRecord-cards-container> div:nth-child(1){
+    margin-bottom: 40px;
+}
+
+.ourTrackRecord-row-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.ourTrackRecord-card{
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    z-index: 2;
+    box-shadow: 0px 4px 10px rgba(52, 111, 98, 0.25);
+}
+
+.ourTrackRecord-card > h2{
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #1C7065;
+}
+
+.ourTrackRecord-card > h5{
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #1C7065;
+}
+
+.ourTrackRecord-right-section-cards-top-bg-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.ourTrackRecord-right-section-cards-bottom-bg-img{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}

@@ -1,0 +1,95 @@
+.contact-container{
+    padding-bottom: 100px;
+}
+
+.contact-headings{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.contact-headings > h1{
+    color: #0D3C35;
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.contact-headings > h3{
+    color: #1C7065;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.contact-headings > h5{
+    color: #1C7065;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact-content{
+    display: flex;
+}
+
+.contact-left-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.contact-form > div{
+    width: 100%;
+    text-align: left;
+    color: #1C7065;
+}
+
+.contact-form > input,textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    resize: none;
+    border: 1px solid #3AA395;
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+
+.contact-right-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-img-container{
+    width: 60%;
+    margin: auto;
+}
+
+.contact-img-container > img{
+    width: 100%;
+}
+
+.contact-submit-button{
+    text-align: center !important;
+    background: #3AA395;
+    border-radius: 40px;
+    padding: 10px 10px;
+    color: #fff !important;
+}

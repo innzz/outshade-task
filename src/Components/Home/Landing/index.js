@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import LandingBg from '../../assets/images/landing-page-bg-img.png';
+import LandingBg from '../../../assets/images/landing-page-bg-img.png';
 
 const Landing = () => {
   return (

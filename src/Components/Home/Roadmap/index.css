@@ -1,0 +1,95 @@
+.roadmap-container{
+    background: #3AA395;
+    padding-bottom: 100px;
+}
+
+.roadmap-headings{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.roadmap-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 83px;
+    color: #FFFFFF;
+}
+
+.roadmap-cards-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.roadmap-card-section{
+    height: 435px;
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.roadmap-cards-section > .roadmap-card-section:nth-child(1) > .roadmap-card,.roadmap-cards-section > .roadmap-card-section:nth-child(3) > .roadmap-card,.roadmap-cards-section > .roadmap-card-section:nth-child(5) > .roadmap-card{
+    flex-direction: column-reverse;
+    /* margin-bottom: 140px;  */
+}
+
+.roadmap-cards-section > .roadmap-card-section:nth-child(2),.roadmap-cards-section > .roadmap-card-section:nth-child(4),.roadmap-cards-section > .roadmap-card-section:nth-child(6){
+    /* flex-direction: column-reverse; */
+    /* margin-bottom: 140px;  */
+    align-items: flex-end;
+}
+
+.roadmap-cards-section > .roadmap-card:nth-child(2),.roadmap-cards-section > .roadmap-card:nth-child(4),.roadmap-cards-section > .roadmap-card:nth-child(6){
+    margin-top: 140px;
+}
+
+.roadmap-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.roadmap-card-line{
+    height: 60px;
+    width: 2px;
+    background-color: #FFFFFF;
+}
+
+.roadmap-card-texts{
+    color: #fff;
+}
+
+.roadmap-card-texts > h3{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    border-bottom: 2.5px solid #FFFFFF;
+    padding: 10px 0;
+    margin: 0 35px;
+}
+
+.roadmap-card-texts > h6{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    margin: 10px 0;
+}
+
+.roadmap-card-image{
+    width: 50%;
+}
+
+.roadmap-card-image > img{
+    width: 100%;
+    object-fit: cover;
+}

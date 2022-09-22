@@ -1,0 +1,29 @@
+.sketch-container{
+    background: #3AA395;
+    padding-bottom: 100px;
+}
+
+.sketch-headings{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.sketch-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 83px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sketch-image-container{
+    width: 40%;
+    margin: auto;
+}
+
+.sketch-image-container > img{
+    width: 100%;
+}

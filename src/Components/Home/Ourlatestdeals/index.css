@@ -1,0 +1,100 @@
+.ourLatestDeals-container{
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+/* .carousel {
+    height: 100%;
+} */
+
+.ourLatestDeals-headings{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.ourLatestDeals-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 83px;
+    text-transform: uppercase;
+    color: #0D3C35;
+}
+
+.ourLatestDeals-slider-contents-container > .carousel{
+    padding-bottom: 60px;
+}
+
+.ourLatestDeals-content{
+    width: 80%;
+    margin: auto;
+}
+
+.ourLatestDeals-options{
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #656B6B;
+}
+
+.ourLatestDeals-options > span{
+    padding: 20px 40px;
+    color: #BACECC;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+/* .ourLatestDeals-options > span:nth-child(1){
+    padding: 20px 10px;
+    border-bottom: 2px solid #0D3C35;
+} */
+
+/* .ourLatestDeals-options > span:nth-child(2){
+    padding: 20px 30px;
+    border-bottom: 2px solid #0D3C35;
+} */
+
+.ourLatestDeals-slider-content{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    height: 100%;
+}
+
+.ourLatestDeals-slider-content{
+    display: flex;
+}
+
+.ourLatestDeals-slider-content-left-section{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ourLatestDeals-slider-content-right-section{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ourLatestDeals-slider-content-image-container{
+    width: 90%;
+}
+
+.ourLatestDeals-slider-content-image-container > img{
+    width: 100%;
+}
+
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+
+.carousel-control-next{
+    justify-content: flex-end;
+    color: gray;
+}

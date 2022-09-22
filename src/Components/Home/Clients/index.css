@@ -1,0 +1,41 @@
+.clients-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 50px;
+    padding-bottom: 50px;
+}
+
+.clients-headings{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px
+}
+
+.clients-headings > h1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 83px;
+    color: #0D3C35;
+}
+
+.clients-cards-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clients-card{
+    width: 130px;
+    margin: 20px 30px;
+}
+
+.clients-card > img{
+    width: 100%;
+    object-fit: contain;
+}
