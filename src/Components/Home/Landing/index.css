@@ -3,15 +3,12 @@
     position: relative;
 }
 
-.landing-inner-container{
-    margin-bottom: 300px;
-}
-
 .landing-content-headings{
     width: 50%;
     padding-top: 50px;
     padding-left: 100px;
     color: #1C7065;
+    z-index: 2;
 }
 
 .landing-content-headings > h1{
@@ -36,10 +33,25 @@
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
 }
 
 .landing-bg-image{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 650px) {
+    
+    .landing-content-headings{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .landing-bg-image{
+        object-position: left;
+    }
 }
