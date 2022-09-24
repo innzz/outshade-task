@@ -53,7 +53,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 60px;
+    padding: 30px 30px;
 }
 
 .contact-form > div{
@@ -92,4 +92,15 @@
     border-radius: 40px;
     padding: 10px 10px;
     color: #fff !important;
+}
+
+@media screen and (max-width: 600px) {
+
+    .contact-right-section{
+        display: none;
+    } 
+
+    .contact-left-section{
+        width: 100%;
+    }
 }

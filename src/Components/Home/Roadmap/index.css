@@ -7,6 +7,8 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .roadmap-headings > h1{
@@ -14,7 +16,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 83px;
     color: #FFFFFF;
 }
 
@@ -33,12 +34,9 @@
 
 .roadmap-cards-section > .roadmap-card-section:nth-child(1) > .roadmap-card,.roadmap-cards-section > .roadmap-card-section:nth-child(3) > .roadmap-card,.roadmap-cards-section > .roadmap-card-section:nth-child(5) > .roadmap-card{
     flex-direction: column-reverse;
-    /* margin-bottom: 140px;  */
 }
 
 .roadmap-cards-section > .roadmap-card-section:nth-child(2),.roadmap-cards-section > .roadmap-card-section:nth-child(4),.roadmap-cards-section > .roadmap-card-section:nth-child(6){
-    /* flex-direction: column-reverse; */
-    /* margin-bottom: 140px;  */
     align-items: flex-end;
 }
 
@@ -68,9 +66,8 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 24px;
     border-bottom: 2.5px solid #FFFFFF;
-    padding: 10px 0;
+    padding: 8.5px 0;
     margin: 0 35px;
 }
 
@@ -79,17 +76,60 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 21px;
     text-align: center;
     letter-spacing: -0.015em;
     margin: 10px 0;
 }
 
 .roadmap-card-image{
-    width: 50%;
+    width: 100px;
 }
 
 .roadmap-card-image > img{
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 670px) {
+
+    .roadmap-headings{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .roadmap-cards-section{
+        flex-direction: column;
+    }
+    
+    .roadmap-card-section{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .roadmap-card{
+        flex-direction: row !important;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .roadmap-card-line{
+        height: 2.5px;
+        width: 60px;
+        background-color: #FFFFFF;
+    }
+    
+    .roadmap-card-texts{
+        border: 2px dotted #fff;
+        border-radius: 8px;
+    }   
+    
+    .roadmap-card-texts > h3{
+        margin: 0;
+    } 
+    
+    .roadmap-card-texts > h6{
+        padding: 0 10px;
+    } 
 }

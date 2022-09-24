@@ -4,7 +4,7 @@ import ContactImg from '../../../assets/images/contact.png';
 
 const Contact = () => {
   return (
-    <div className='contact-container'>
+    <div id='contactus' className='contact-container'>
         <div className="contact-headings">
             <h1>GET IN TOUCH</h1>
             <h3>We Would Love To Hear From You!</h3>

@@ -31,7 +31,7 @@ const CurrentProposal = () => {
         }];
 
   return (
-    <div className='currentProposal-container'>
+    <div id='aboutus' className='currentProposal-container'>
         <div className="currentProposal-headings">
             <h1>OUR CURRENT PROPOSAL</h1>
         </div>

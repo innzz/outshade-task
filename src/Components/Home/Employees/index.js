@@ -6,7 +6,7 @@ import Employee3 from '../../../assets/images/employee3.png';
 
 const Employess = () => {
   return (
-    <div className='employees-container'>
+    <div id='whoweare' className='employees-container'>
         <div className="employees-headings">
             <h1>WHO WE ARE</h1>
             <h5>We are a team of passionate young entrepreneurs with a vision united towards aggregating big chunks of land 

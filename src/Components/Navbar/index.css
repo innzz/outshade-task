@@ -3,6 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.707);
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
 }
 
 .navbar-options-container{
@@ -18,6 +24,9 @@
     padding: 10px 10px;
     transition: all 0.2s ease-in-out;
 }
+.navbar-options > a{
+    color: #1C7065;
+}
 
 .navbar-options:hover{
     color: #fff;
@@ -27,6 +36,10 @@
     border: 0.5px solid #3AA395;
 }
 
+.navbar-options:hover > a{
+    color: #fff;
+}
+
 .navbar-contact-button{
     color: #fff;
     background-color: #3AA395;
@@ -34,6 +47,10 @@
     border-radius: 10px;
     border: 0.5px solid #3AA395;
     cursor: pointer;
+}
+
+.navbar-contact-button > a{
+    color: #fff;
 }
 
 .navbar-side-buttons{
@@ -74,7 +91,16 @@
     border-radius: 8px;
 }
 
+.navbar-menu-dropdown > li > a{
+    color: #1C7065;
+}
+
 .navbar-menu-dropdown > li:hover{
+    background: #3AA395;
+    color: #fff;
+}
+
+.navbar-menu-dropdown > li:hover > a{
     background: #3AA395;
     color: #fff;
 }

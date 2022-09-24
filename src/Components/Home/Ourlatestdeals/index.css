@@ -3,10 +3,6 @@
     padding-bottom: 80px;
 }
 
-/* .carousel {
-    height: 100%;
-} */
-
 .ourLatestDeals-headings{
     text-align: center;
     padding: 30px 0;
@@ -17,13 +13,14 @@
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 83px;
     text-transform: uppercase;
     color: #0D3C35;
 }
 
 .ourLatestDeals-slider-contents-container > .carousel{
     padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .ourLatestDeals-content{
@@ -47,25 +44,12 @@
     transition: all 0.1s ease-in-out;
 }
 
-/* .ourLatestDeals-options > span:nth-child(1){
-    padding: 20px 10px;
-    border-bottom: 2px solid #0D3C35;
-} */
-
-/* .ourLatestDeals-options > span:nth-child(2){
-    padding: 20px 30px;
-    border-bottom: 2px solid #0D3C35;
-} */
-
 .ourLatestDeals-slider-content{
+    display: flex;
     width: 90%;
     margin: auto;
     padding: 20px 0;
     height: 100%;
-}
-
-.ourLatestDeals-slider-content{
-    display: flex;
 }
 
 .ourLatestDeals-slider-content-left-section{
@@ -97,4 +81,27 @@
 .carousel-control-next{
     justify-content: flex-end;
     color: gray;
+}
+
+@media screen and (max-width: 670px) {
+
+    .ourLatestDeals-slider-content{
+        flex-direction: column;
+        margin: auto;
+    }   
+
+    .ourLatestDeals-slider-content-left-section{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .ourLatestDeals-slider-content-right-section{
+        width: 100%;
+        justify-content: center;
+    } 
+
+    .ourLatestDeals-options > span{
+        padding: 20px 20px;
+    }
+    
 }

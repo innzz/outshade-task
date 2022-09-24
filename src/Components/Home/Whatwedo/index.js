@@ -3,7 +3,7 @@ import './index.css';
 
 const WhatWeDo = () => {
   return (
-    <div className='whatWeDo-container'>
+    <div id='whatwedo' className='whatWeDo-container'>
         <div className="whatWeDo-headings"><h1>WHAT WE DO</h1></div>
         <div className="whatWeDo-cards-container">
             <div className="whatWeDo-single-card"><span className="whatWeDo-card">Small lands(From Farmers)</span></div>

@@ -12,11 +12,11 @@ const Navbar = () => {
       <img src={Logo} alt="logo" className='navbar-logo-image' />
       </div>
       <div className="navbar-options-container">
-        <span className="navbar-options">About Us</span>
-        <span className="navbar-options">Our Team</span>
-        <span className="navbar-options">What we do</span>
-        <span className="navbar-options">Projects</span>
-        <span className="navbar-options">Clients</span>
+        <span className="navbar-options"><a href="#aboutus">About Us</a></span>
+        <span className="navbar-options"><a href="#whoweare">Our Team</a></span>
+        <span className="navbar-options"><a href="#whatwedo">What we do</a></span>
+        <span className="navbar-options"><a href="#projects">Projects</a></span>
+        <span className="navbar-options"><a href="#clients">Clients</a></span>
       </div>
       <div className="navbar-side-buttons">
       <a className='navbar-menu-dropdown-container'>
@@ -24,15 +24,15 @@ const Navbar = () => {
         {showMenu && <ImCross onClick={()=>setShowMenu(false)} className='navbar-menu-button' size={25} />}
         {showMenu && 
         <ul className="navbar-menu-dropdown">
-        <li>About Us</li>
-        <li>Our Team</li>
-        <li>What we do</li>
-        <li>Projects</li>
-        <li>Clients</li>
-        <li>Contact Us</li>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#whoweare">Our Team</a></li>
+        <li><a href="#whatwedo">What we do</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
         </ul>}
       </a>
-      <span className="navbar-contact-button">Contact Us</span>
+      <span className="navbar-contact-button"><a href="#contactus">Contact Us</a></span>
       </div>
     </div>
   )

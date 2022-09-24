@@ -16,7 +16,7 @@ import Client13 from '../../../assets/images/client13.png';
 
 const Clients = () => {
   return (
-    <div className='clients-container'>
+    <div id='clients' className='clients-container'>
         <div className="clients-headings">
             <h1>OUR ELITE CLIENTS</h1>
         </div>

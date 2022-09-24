@@ -5,7 +5,7 @@ import outTrackRecordDottedImg from '../../../assets/images/ourtrackrecord.png';
 
 const OurTrackRecord = () => {
   return (
-    <div className='ourTrackRecord-container'>
+    <div id='projects' className='ourTrackRecord-container'>
       <div className="ourTrackRecord-headings"><h1>OUR TRACK RECORD</h1></div>
       <div className="ourTrackRecord-content">
         <div className="ourTrackRecord-left-section-text">
